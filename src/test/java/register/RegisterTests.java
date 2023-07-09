@@ -14,7 +14,7 @@ public class RegisterTests extends BaseTest {
         System.out.println("Enter Data");
      var registerPage= homePage.clickRegisterLink();
      registerPage.enterRegisterFields("mohamed","mokhtar","24","1","1990",
-             "mohamedmokhta1113211612112@gmail.com","Iti",
+             "mohamedmokhta1@gmail.com","Iti",
              "987654321","987654321");
     // registerPage.clickRegister();
      var confirmPage=registerPage.clickRegister();
